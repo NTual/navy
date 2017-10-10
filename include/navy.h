@@ -19,8 +19,6 @@
 # include <fcntl.h>
 # include <time.h>
 
-# define EXIT_SUCCESS 0
-
 int	g_global[3];
 
 void	my_putchar(char);
