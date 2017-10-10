@@ -15,8 +15,7 @@ int	is_hitten(char **map, int y, int x)
   my_putchar(y + 64);
   my_putnbr(x);
   my_putstr(": ");
-  if (map[x - 1][y - 1] != '0' && map[x - 1][y - 1] != 'x')
-    {
+  if (map[x - 1][y - 1] != '0' && map[x - 1][y - 1] != 'x'){
       my_putstr("hit\n\n");
       map[x - 1][y - 1] = 'x';
       return (1);
