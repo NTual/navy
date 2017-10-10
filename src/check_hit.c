@@ -22,5 +22,5 @@ int	is_hitten(char **map, int y, int x)
     }
   else
     my_putstr("missed\n\n");
-  return (0);
+  return (EXIT_SUCCESS);
 }
