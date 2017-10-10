@@ -47,6 +47,5 @@ int     do_stuff_j2(char **av)
       my_putstr("successfully connected\n\n");
       return (exec_j2(my_getnbr(av[1]), map));
     }
-  else
     return (84);
 }
