@@ -8,7 +8,7 @@
 ## Last update Mon Feb 13 21:59:58 2017 Hugo Tallineau
 ##
 
-CC	=	gcc -g
+CC	=	gcc
 
 RM	=	rm -f
 
