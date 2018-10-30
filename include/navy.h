@@ -8,16 +8,15 @@
 ** Last update Thu Feb  9 17:19:30 2017 Hugo Tallineau
 */
 
-#ifndef NAVY_H
-# define NAVY_H
+#pragma once
 
-# include <unistd.h>
-# include <sys/types.h>
-# include <signal.h>
-# include <stdlib.h>
-# include <sys/stat.h>
-# include <fcntl.h>
-# include <time.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <time.h>
 
 int	g_global[3];
 
@@ -57,5 +56,3 @@ char	**my_sort_array(char**);
 void	set_global(char**, int, int);
 int	do_stuff_j1(char**);
 int	do_stuff_j2(char**);
-
-#endif /* NAVY_H */
